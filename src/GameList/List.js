@@ -777,6 +777,22 @@ let gameList = [
         "episode": "98",
         "realeased": "true"
     },
+    {
+        "id": 99,
+        "name": "Halo: ODST",
+        "platform": "Xbox 360, Xbox One, PC",
+        "year": "2009",
+        "episode": "99",
+        "realeased": "true"
+    }
+    {
+        "id": 100,
+        "name": "Jak and Daxter: The Precursor Legacy",
+        "platform": "PS2, PS3, PS4",
+        "year": "2001",
+        "episode": "100",
+        "realeased": "true"
+    }
 ]
 
 
