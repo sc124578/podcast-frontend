@@ -1,0 +1,55 @@
+.welcome {
+    font-size: 2em;
+    text-align: center;;
+    font-family: Impact;
+}
+
+.whatIsH2 {
+    font-size: 2em;
+    text-align: center;
+    margin: 60px;
+    font-family: Impact;
+}
+
+.whatIsP {
+    font-size: 1.5em;
+    text-align: center;
+    margin: 60px;
+    font-family: cursive;
+}
+
+.whereToFindH2 {
+    font-size: 2em;
+    text-align: center;
+    margin: 60px;
+    font-family: Impact;
+}
+
+.whereToFindP {
+    font-size: 1.5em;
+    text-align: center;
+    margin: 60px;
+    font-family: cursive;
+}
+
+.socialMediaH2 {
+    font-size: 2em;
+    text-align: center;
+    margin: 60px;
+    font-family: Impact;
+}
+
+.socialMediaP {
+    font-size: 1.5em;
+    text-align: center;
+    margin: 60px;
+    font-family: cursive;
+}
+
+html {
+    background-color: #f8f8ff;
+}
+
+.homePage {
+    background-color: #f8f8ff;
+}

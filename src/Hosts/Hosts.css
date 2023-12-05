@@ -1,0 +1,154 @@
+/* Hosts.css */
+
+.hostPage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f8f8ff;
+  }
+
+  .hostScott {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border: 2px solid #333;
+    border-radius: 20px;
+    margin-top: 50px;
+    background-color: #f2f3f4;
+  }
+
+  .hostScottText {
+    margin-top: 7%;
+    margin-left: 30%;
+  }
+
+  .hostScottH2 {
+    font-size: 3.5em;
+    text-align: right;
+    font-family: Impact;
+    margin-left: 400px;
+    margin-bottom: 20px;
+  }
+  
+  .hostScottP {
+    font-size: 1.2em;
+    text-align: center;
+    margin: 20px;
+    font-family: cursive;
+  }
+
+  .scottIMG {
+    width: 300px;
+    height: 200px;
+    border-radius: 50%;
+    margin-left: 30%;
+    margin-top: 12%;
+  }
+
+  .stevenIMG {
+    width: 350px;
+    height: 200px;
+    border-radius: 50%;
+    margin-left: 30%;
+    margin-top: 12%;
+    margin-bottom: 6%;
+  }
+
+  .hostSteven {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border: 2px solid #333;
+    border-radius: 20px;
+    margin-top: 50px;
+    background-color: #f2f3f4;
+  }
+  
+  .hostStevenH2 {
+    font-size: 3.5em;
+    text-align: left;
+    font-family: Impact;
+    margin-right: 600px;
+    margin-bottom: 20px;
+  }
+
+  .hostStevenP {
+    font-size: 1.2em;
+    text-align: center;
+    margin: 20px;
+    font-family: cursive;
+    margin-right: 80px;
+    margin-top: 50px;
+  }
+
+  .hostContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .hostContainer img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .hostContainer .hostText {
+    margin-top: 10px;
+  }
+  
+  /* Hosts.css */
+
+/* Existing styles ... */
+
+/* Responsive styles for smaller screens */
+@media screen and (min-width: 300px) and (max-width: 750px) {
+  .hostPage {
+    margin-top: 20px; /* Adjust as needed */
+  }
+
+  .hostScott,
+  .hostSteven {
+    grid-template-columns: 1fr; /* Set to 1 column for smaller screens */
+    margin-top: 20px; /* Adjust as needed */
+  }
+
+  .hostScottH2 {
+    margin-left: 0px;
+    margin-right: 100px;
+    font-size: 2.5em; /* Adjust as needed */
+    text-align: center;
+  }
+  .hostStevenH2 {
+    margin-left: 0;
+    margin-right: 0;
+    font-size: 2.5em; /* Adjust as needed */
+    text-align: center;
+  }
+
+  .scottIMG,
+  .stevenIMG {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px; /* Adjust as needed */
+  }
+
+  .hostScottP {
+    margin-left: 0;
+    margin-right: 60px;
+    text-align: center;
+    font-size: 1em; /* Adjust as needed */
+    margin-top: 20px; /* Adjust as needed */
+  }
+  .hostStevenP {
+    margin-right: 0;
+    font-size: 1em; /* Adjust as needed */
+    margin-top: 20px; /* Adjust as needed */
+  }
+
+  .hostScottText,
+  .hostContainer {
+    margin-top: 20px; /* Adjust as needed */
+  }
+}
+
+  

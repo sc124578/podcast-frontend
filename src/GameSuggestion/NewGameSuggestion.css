@@ -1,0 +1,39 @@
+.addNewGameH1 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin: 0;
+    padding: 0;
+    color: #000;
+    text-shadow: 2px 2px 2px #fff;
+    font-family: 'Bangers', cursive;
+    margin-bottom: 1rem;
+}
+    
+    .NewGameSuggestion {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .addNewGame {
+        text-align: center;
+    }
+    
+    .gameNameInput,
+    .platformInput,
+    .yearInput {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-bottom: 20px;
+        font: 1.2rem 'Bangers', cursive;
+    }
+    
+    .gameNameInput input,
+    .platformInput input,
+    .yearInput input {
+        width: 300px;
+        padding: 10px;
+        margin-top: 5px;
+    }
+    

@@ -1,0 +1,36 @@
+.gameSuggestionH1 {
+    font-size: 2em;
+    text-align: center;
+    margin: 60px;
+    font-family: Impact;
+}
+
+.gameSuggestionP {
+    font-size: 1.5em;
+    text-align: center;
+    margin: 60px;
+    font-family: cursive;
+}
+
+.submitButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px; /* Adjust the margin as needed */
+
+  }
+  .tabledGames {
+    font-size: 2em;
+    text-align: center;
+    margin: 60px;
+    font-family: Impact;
+  }
+
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    color: #588c7e;
+    font-family: monospace;
+    font-size: 25px;
+    text-align: center;
+  }

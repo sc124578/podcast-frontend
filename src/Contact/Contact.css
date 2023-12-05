@@ -1,0 +1,17 @@
+.contactH2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    text-align: center;
+    color: black;
+    text-shadow: 0 0 5px #000;
+}
+
+.contactP {
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-bottom: 1rem;
+    text-align: center;
+    color: black;
+    text-shadow: 0 0 5px #000;
+}
