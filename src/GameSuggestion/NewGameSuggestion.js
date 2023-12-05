@@ -13,25 +13,26 @@ export default function NewGameSuggestion() {
     const [error, setError] = useState("");
     const [loading, setLoading] = useState(false);
 
-    const submitGame = (event) => {
-        event.preventDefault();
-        setLoading(true);
-        api.post("/api/addgame", formState)
-            .then((response) => {
-                setFormState({
-                    name: "",
-                    platform: "",
-                    year: "",
-                });
-                window.location.href = "/Game-Suggestion";
-            })
-            .catch((error) => {
-                setError(`Error adding game: ${error}`);
-            })
-            .finally(() => {
-                setLoading(false);
+   const submitGame = (event) => {
+    event.preventDefault();
+    setLoading(true);
+    api.post("/api/addgame", formState)
+        .then((response) => {
+            setFormState({
+                name: "",
+                platform: "",
+                year: "",
             });
-    };
+            window.location.href = "/Game-Suggestion";
+        })
+        .catch((error) => {
+            console.error(`Error adding game: ${error}`);
+            setError(`Error adding game: ${error.response?.data?.error || 'Unknown error'}`);
+        })
+        .finally(() => {
+            setLoading(false);
+        });
+};
 
     const handleInputChange = (event) => {
         const { name, value } = event.target;
