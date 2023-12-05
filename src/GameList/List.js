@@ -784,7 +784,7 @@ let gameList = [
         "year": "2009",
         "episode": "99",
         "realeased": "true"
-    }
+    },
     {
         "id": 100,
         "name": "Jak and Daxter: The Precursor Legacy",
