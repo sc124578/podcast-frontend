@@ -76,9 +76,9 @@ export default function NewGameSuggestion() {
                         />
                     </label>
                     <div className="addGameSubmit">
-                      <Link to="/Game-Suggestion"> <button className="btn btn-primary btn-lg" onClick={submitGame} disabled={loading}></Link>
+                      <Link to="/Game-Suggestion"> <button className="btn btn-primary btn-lg" onClick={submitGame} disabled={loading}>
                             {loading ? "Loading..." : "Submit"}
-                        </button>
+                        </button></Link>
                         <Link to="/Game-Suggestion">
                             <button className="cancel btn btn-danger">Cancel</button>
                         </Link>
