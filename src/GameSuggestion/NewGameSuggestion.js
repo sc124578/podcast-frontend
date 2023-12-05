@@ -23,7 +23,7 @@ export default function NewGameSuggestion() {
                 platform: "",
                 year: "",
             });
-            window.location.href = "/Game-Suggestion";
+           <Link to="/Game-Suggestion">Link Text</Link>;
         })
         .catch((error) => {
             console.error(`Error adding game: ${error}`);
@@ -76,7 +76,7 @@ export default function NewGameSuggestion() {
                         />
                     </label>
                     <div className="addGameSubmit">
-                        <button className="btn btn-primary btn-lg" onClick={submitGame} disabled={loading}>
+                       <button className="btn btn-primary btn-lg" onClick={submitGame} disabled={loading}>
                             {loading ? "Loading..." : "Submit"}
                         </button>
                         <Link to="/Game-Suggestion">
