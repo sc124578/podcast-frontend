@@ -4,7 +4,7 @@ import axios from "axios";
 import "./GameSuggestion.css";
 
 const api = axios.create({
-    baseURL: "http://localhost:3001",
+    baseURL: "https://soul-of-a-gamer-podcast-backend.onrender.com",
 });
 
 export default function GameSuggestion({ onDelete }) {
