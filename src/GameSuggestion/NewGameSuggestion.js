@@ -23,7 +23,7 @@ export default function NewGameSuggestion() {
                 platform: "",
                 year: "",
             });
-           <Link to="/Game-Suggestion">Link Text</Link>;
+           
         })
         .catch((error) => {
             console.error(`Error adding game: ${error}`);
@@ -76,7 +76,7 @@ export default function NewGameSuggestion() {
                         />
                     </label>
                     <div className="addGameSubmit">
-                       <button className="btn btn-primary btn-lg" onClick={submitGame} disabled={loading}>
+                      <Link to="/Game-Suggestion"> <button className="btn btn-primary btn-lg" onClick={submitGame} disabled={loading}></Link>
                             {loading ? "Loading..." : "Submit"}
                         </button>
                         <Link to="/Game-Suggestion">
