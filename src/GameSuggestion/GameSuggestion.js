@@ -32,7 +32,9 @@ export default function GameSuggestion({ onDelete }) {
             <h1 className="gameSuggestionH1">Game Suggestion</h1>
             <p className="gameSuggestionP">This is where you can tell us what games you want us to play. Before you make a 
             suggestion, please check the game list to see if we have already played the game. If we have not, click the button
-            to add a game and fill out the form. We will add it to the list and play it as soon as we can.
+            to add a game and fill out the form. We will add it to the list and play it as soon as we can. Please wait a moment 
+            after suggesting or coming to this page for the games to load. Sometimes it takes a minute to retrieve the games from
+            the server.
             </p>
             <div className="submitButton">
                 <Link to="/Game-Suggestion/New">
