@@ -13,25 +13,26 @@ export default function NewGameSuggestion() {
     const [error, setError] = useState("");
     const [loading, setLoading] = useState(false);
 
-    const submitGame = (event) => {
-        event.preventDefault();
-        setLoading(true);
-        api.post("/api/addgame", formState)
-            .then((response) => {
-                setFormState({
-                    name: "",
-                    platform: "",
-                    year: "",
-                });
-                window.location.href = "/Game-Suggestion";
-            })
-            .catch((error) => {
-                setError(`Error adding game: ${error}`);
-            })
-            .finally(() => {
-                setLoading(false);
+   const submitGame = (event) => {
+    event.preventDefault();
+    setLoading(true);
+    api.post("/api/addgame", formState)
+        .then((response) => {
+            setFormState({
+                name: "",
+                platform: "",
+                year: "",
             });
-    };
+           
+        })
+        .catch((error) => {
+            console.error(`Error adding game: ${error}`);
+            setError(`Error adding game: ${error.response?.data?.error || 'Unknown error'}`);
+        })
+        .finally(() => {
+            setLoading(false);
+        });
+};
 
     const handleInputChange = (event) => {
         const { name, value } = event.target;
@@ -75,9 +76,9 @@ export default function NewGameSuggestion() {
                         />
                     </label>
                     <div className="addGameSubmit">
-                        <button className="btn btn-primary btn-lg" onClick={submitGame} disabled={loading}>
+                      <Link to="/"><button className="btn btn-primary btn-lg" onClick={submitGame} disabled={loading}>
                             {loading ? "Loading..." : "Submit"}
-                        </button>
+                        </button></Link>
                         <Link to="/Game-Suggestion">
                             <button className="cancel btn btn-danger">Cancel</button>
                         </Link>

@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "http://localhost:3001",
+  baseURL: "https://soul-of-a-gamer-podcast-backend.onrender.com",
 });
 
 export const deleteGame = async (gameId, username, password) => {
