@@ -24,7 +24,7 @@
   .hostScottH2 {
     font-size: 3.5em;
     text-align: right;
-    font-family: Impact;
+    font-family: 'Silkscreen', sans-serif;
     margin-left: 400px;
     margin-bottom: 20px;
   }
@@ -33,7 +33,7 @@
     font-size: 1.2em;
     text-align: center;
     margin: 20px;
-    font-family: cursive;
+    font-family: Impact;
   }
 
   .scottIMG {
@@ -65,7 +65,7 @@
   .hostStevenH2 {
     font-size: 3.5em;
     text-align: left;
-    font-family: Impact;
+    font-family: 'Silkscreen', sans-serif;
     margin-right: 600px;
     margin-bottom: 20px;
   }
@@ -74,7 +74,7 @@
     font-size: 1.2em;
     text-align: center;
     margin: 20px;
-    font-family: cursive;
+    font-family: Impact;
     margin-right: 80px;
     margin-top: 50px;
   }
@@ -149,6 +149,8 @@
   .hostContainer {
     margin-top: 20px; /* Adjust as needed */
   }
+
+ 
 }
 
   

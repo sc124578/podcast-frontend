@@ -1,49 +1,49 @@
 .welcome {
     font-size: 2em;
     text-align: center;;
-    font-family: Impact;
+    font-family: 'Silkscreen', sans-serif;;
 }
 
 .whatIsH2 {
     font-size: 2em;
     text-align: center;
     margin: 60px;
-    font-family: Impact;
+    font-family: 'Silkscreen', sans-serif;;
 }
 
 .whatIsP {
     font-size: 1.5em;
     text-align: center;
     margin: 60px;
-    font-family: cursive;
+    font-family: Impact;
 }
 
 .whereToFindH2 {
     font-size: 2em;
     text-align: center;
     margin: 60px;
-    font-family: Impact;
+    font-family: 'Silkscreen', sans-serif;
 }
 
 .whereToFindP {
     font-size: 1.5em;
     text-align: center;
     margin: 60px;
-    font-family: cursive;
+    font-family: Impact;
 }
 
 .socialMediaH2 {
     font-size: 2em;
     text-align: center;
     margin: 60px;
-    font-family: Impact;
+    font-family: 'Silkscreen', sans-serif;
 }
 
 .socialMediaP {
     font-size: 1.5em;
     text-align: center;
     margin: 60px;
-    font-family: cursive;
+    font-family: Impact;
 }
 
 html {

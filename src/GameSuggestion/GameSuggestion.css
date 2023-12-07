@@ -2,14 +2,14 @@
     font-size: 2em;
     text-align: center;
     margin: 60px;
-    font-family: Impact;
+    font-family: 'Silkscreen', sans-serif;
 }
 
 .gameSuggestionP {
     font-size: 1.5em;
     text-align: center;
     margin: 60px;
-    font-family: cursive;
+    font-family: Impact;
 }
 
 .submitButton {
@@ -23,7 +23,7 @@
     font-size: 2em;
     text-align: center;
     margin: 60px;
-    font-family: Impact;
+    font-family: 'Silkscreen', sans-serif;;
   }
 
   table {

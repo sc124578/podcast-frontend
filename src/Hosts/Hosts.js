@@ -1,7 +1,7 @@
 import "./Hosts.css"
 import React from "react";
 import scott from "../Images/profile pic.jpg";
-import steven from "../Images/stevenpic.jpg"
+import steven from "../Images/Black-and-White.jpg"
 
 export default function Hosts() {
     return (
