@@ -12,7 +12,6 @@ export default function Header() {
   };
 
   useEffect(() => {
-    // Close the menu when the route changes
     setShowMenu(false);
   }, [location]);
 
