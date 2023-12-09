@@ -10,14 +10,12 @@ export const deleteGame = async (gameId, username, password) => {
       data: { username, password },
     });
 
-    console.log(response.data); // Log success message
-    return response.data; // Return data if needed
+    console.log(response.data);
+    return response.data;
   } catch (error) {
     console.error(`Error deleting game: ${error}`);
-    throw error; // Throw error to handle in the component
+    throw error;
   }
 };
-
-// You can add more functions here if needed
 
 export default api;
