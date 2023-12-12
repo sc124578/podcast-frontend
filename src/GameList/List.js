@@ -792,6 +792,14 @@ let gameList = [
         "year": "2001",
         "episode": "100",
         "realeased": "true"
+    },
+     {
+        "id": 101,
+        "name": "Psychonauts 2",
+        "platform": "Xbox One, PS4, PC, Xbox Series X, PS5",
+        "year": "2021",
+        "episode": "101",
+        "realeased": "true"
     }
 ]
 
